@@ -1,0 +1,21 @@
+site_name: GEM Tutorial
+nav:
+  - Overview: index.md
+  - Setup and installation: setup.md
+  - Background: background.md
+  - 1. GEM basics: ex_gem_basics.md
+  - 2. Flux balance analysis: ex_fba.md
+  - 3. GEM extraction: ex_gem_extraction.md
+  - 4. Comparison of extracted GEMs: ex_gem_comparison.md
+  - 5. Reporter metabolites: ex_reporter_mets.md
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: pink
+  # highlightjs: true
+  # hljs_languages:
+  #   - matlab
+markdown_extensions:
+  - admonition
+  - attr_list
