@@ -29,7 +29,7 @@ From the Jupyter browser, navigate to the `scripts/` directory and open the `GEM
 
 Launch RStudio from the command line
 ```
-$ conda activate gsa-env
+$ rstudio &
 ```
 
 Follow the instructions found in the `GEM_GSA.html` document, located in the `scripts/` directory. Optionally, the source RMarkdown file `GEM_GSA.Rmd` can be opened within RStudio, though it is not as easy to read as the HTML.
