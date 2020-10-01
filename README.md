@@ -4,7 +4,7 @@ This repository contains the scripts and documentation associated with the tutor
 
 ## Exercise 1: COBRApy
 
-1. Create the `cobra-env` conda environment from the `cobra_environment.yml` file in the `envs/` directory.
+1. Create the `cobra-env` conda environment from the `cobra_environment.yml` file in the `envs/` directory
 ```
 $ conda env create -f cobra_environment.yml
 ```
@@ -14,7 +14,7 @@ $ conda env create -f cobra_environment.yml
 $ conda activate cobra-env
 ```
 
-3. Start up Jupyter notebook
+3. Launch a Jupyter notebook session
 ```
 $ jupyter notebook
 ```
@@ -24,9 +24,10 @@ $ jupyter notebook
 
 ## Exercise 2: GEM-based gene set enrichment and analysis
 
-### OPTIONAL setup: regenerates the `HumanGEM_metabolite_GSC.gmt` and `HumanGEM_subsystem_GSC.gmt` files
+### OPTIONAL Setup:
+**Regenerates the `HumanGEM_metabolite_GSC.gmt` and `HumanGEM_subsystem_GSC.gmt` files**
 
-1. Start up Jupyter notebook
+1. Launch a Jupyter notebook session
 ```
 $ jupyter notebook
 ```
@@ -36,7 +37,7 @@ $ jupyter notebook
 
 ### R Exercise
 
-1. Create the `gsa-env` conda environment from the `gsa_environment.yml` file in the `envs/` directory.
+1. Create the `gsa-env` conda environment from the `gsa_environment.yml` file in the `envs/` directory
 ```
 $ conda env create -f gsa_environment.yml
 ```
